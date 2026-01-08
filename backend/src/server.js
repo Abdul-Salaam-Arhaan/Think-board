@@ -7,6 +7,7 @@ import rateLimiter from "./middleware/RateLimiter.js";
 import notesRoutes from "./routes/notesRoutes.js";
 import connectDB from "./config/DB.js";
 
+
 dotenv.config();
 
 const app = express();
